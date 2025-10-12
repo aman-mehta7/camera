@@ -1,0 +1,49 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+80s+Fade&display=swap");
+@import "tailwindcss";
+
+:root {
+  --gradient: radial-gradient(circle, #e5e5e5 0%, #fff 100%);
+}
+
+html,
+body {
+  width: 100dvw;
+  overflow-x: hidden;
+  background-color: #f3e7d9;
+  color: #9c431a;
+  scroll-behavior: smooth;
+  font-family: "Mona Sans", sans-serif;
+}
+
+canvas {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+button,i,a{
+      cursor: pointer;
+}
+
+
+@theme {
+  --font-sans: "Mona Sans", sans-serif;
+  --color-white-50: #f3e7d9;
+  --color-brown-50: #9c431a;
+}
+
+@layer utilities {
+  .brown {
+    color: #9c431a;
+  }
+
+  .white {
+    color: #f3e7d9;
+  }
+
+  .header-font {
+    font-family: 'Rubik 80s Fade', sans-serif;
+  }
+}
+
