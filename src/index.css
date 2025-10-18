@@ -12,10 +12,12 @@ body {
   width: 100dvw;
   overflow-x: hidden;
   background-color: #f3e7d9;
+  /* background-color: #00000000; */
   color: #9c431a;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
 }
+
 
 canvas {
   width: 100dvw;
@@ -43,7 +45,17 @@ button,i,a{
   }
 
   .header-font {
-    font-family: 'Rubik 80s Fade', sans-serif;
+    /* font-family: 'Rubik 80s Fade', sans-serif; */
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+main {
+  scroll-snap-type: y mandatory;
+}

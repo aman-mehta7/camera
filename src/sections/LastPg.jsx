@@ -6,8 +6,8 @@ const LastPg = () => {
     <section className="flex gap-10 items-center mt-8 px-32 text-black h-screen">
       <img src={img3} alt="" className="object-cover w-[50vw] h-[50vh] rounded-md" />
       <div>
-        <p className="text-xl mb-3">Other Works</p>
-        <h1 className="header-font font-bold text-9xl leading-[5vw]" >RETHINK <br /> CANVAS</h1>
+        <p className="text-xl mb-3">Power of GSAP & 3js/R3F</p>
+        <h1 className="header-font font-bold text-9xl leading-[5.5vw]" >WELL/ <br /> THANKS/</h1>
         <p className="text-sm opacity-50 mt-5" >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quis
           recusandae fugiat! Eligendi fugit quam officiis suscipit ea, vero

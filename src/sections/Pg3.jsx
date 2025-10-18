@@ -3,13 +3,13 @@ import img3 from "../assets/images/vintage.jpg";
 
 const Pg3 = () => {
   return (
-    <section className="h-fit w-full">
-      <div className=" pl-25 flex items-center justify-between">
-        <h1 className="text-[14.5vw] font-bold header-font text-wrap">
+    <section className=" pl-30 h-fit w-full">
+      <div className=" flex items-center justify-between">
+        <h1 className="text-[14vw] font-bold header-font text-wrap">
           RETROCROP
         </h1>
       </div>
-      <div className="flex justify-between pr-20 pl-30 ">
+      <div className="flex justify-between pr-20 ">
         <div>
           <div className="">
             <img src={img3} alt="" className="w-[25vw] object-contain rounded-md  " />

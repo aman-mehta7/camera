@@ -11,14 +11,14 @@ const Pg2 = () => {
     );
   }, []);
   return (
-    <section className="h-[70dvh] w-full">
-      <div className="lg:flex justify-between pr-20 pl-30 ">
+    <section className=" pl-30 h-[70dvh] w-full">
+      <div className="lg:flex justify-between pr-20">
         <div className="bottom">
           <p className="pb-1 ml-1.5 text-lg font-semibold">limited verson</p>
           <h1 className="text-[5vw] leading-[4vw] font-bold header-font text-wrap">
             INTAX <br /> FILMI FUN
           </h1>
-          <p className=" text-sm w-[40%] ml-1.5 mt-3 ">
+          <p className=" ml-1.5 text-sm w-[40%] mt-3 ">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
             veritatis error, tenetur ab facere maxime, ullam cupiditate
             consectetur doloribus eius totam velit magnam repudiandae quisquam.

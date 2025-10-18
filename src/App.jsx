@@ -9,7 +9,7 @@ import LastPg from './sections/LastPg'
 
 const App = () => {
   return (
-    <main>
+    <main> 
       <Scene /> 
       <LandingPage />
       <Pg2 />
