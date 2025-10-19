@@ -11,7 +11,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-0 z-50 w-full h-dvh ">
+    <nav className="fixed top-0 left-0 z-[999] w-full h-dvh ">
       <div className="flex justify-between w-full">
         {/* left section */}
         <div className=" left min-w-[10vh] h-dvh md:flex flex-col justify-center hidden ">
@@ -29,7 +29,7 @@ const Nav = () => {
 
         {/* for mobile */}
 
-        <div className=" left md:hidden absolute top-20  flex flex-col gap-7 items-center mx-4.5 pb-2 text-2xl">
+        <div className=" left md:hidden absolute top-20  flex flex-col gap-7 items-center mx-2 pb-2 text-2xl bg-[#f3e7d9] p-2 rounded-md">
           <i>
             {" "}
             <IoMenu />
@@ -42,7 +42,7 @@ const Nav = () => {
 
         {/* right upper section */}
         <div className=" upper flex justify-between px-14 py-5 w-full h-fit ">
-          <a className="text-4xl font-bold uppercase cursor-pointer">filmi</a>
+          <a className="text-4xl font-bold uppercase cursor-pointer bg-[#f3e7d9] p-2 rounded-md">filmi</a>
           <button className="px-4 py-2  rounded-sm cursor-pointer font-bold bg-[brown] text-[white]">
             BUY NOW
           </button>

@@ -3,23 +3,23 @@ import img3 from "../assets/images/vintage.jpg";
 
 const Pg3 = () => {
   return (
-    <section className=" pl-30 h-fit w-full">
+    <section className=" backdrop-blur-sm lg:backdrop-blur-none  md:pl-30 p-8 lg:h-fit w-full">
       <div className=" flex items-center justify-between">
         <h1 className="text-[14vw] font-bold header-font text-wrap">
           RETROCROP
         </h1>
       </div>
-      <div className="flex justify-between pr-20 ">
+      <div className="lg:flex justify-between lg:pr-20 ">
         <div>
           <div className="">
-            <img src={img3} alt="" className="w-[25vw] object-contain rounded-md  " />
+            <img src={img3} alt="" className="lg:w-[25vw] object-contain rounded-md" />
           </div>
 
-          <p className=" ml-1.5 mt-8 ">
+          <p className=" lg:ml-1.5 mt-8 ">
             Watch the actual footage recorded <br /> on <span>Intax</span>
           </p>
         </div>
-        <div className="flex flex-col gap-5 pt-8 w-[25vw]  ">
+        <div className="flex flex-col gap-5 pt-8 lg:w-[25vw]  ">
           <div>
             <p>
               Camera have evolved significiently since inception, transform from
