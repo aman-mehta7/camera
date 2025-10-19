@@ -29,7 +29,7 @@ const App = () => {
   if (loading) return <LoadingScreen progress={progress} />
 
   return (
-    <main className="lg:bg-[#f3e7d9]">
+    <main className="bg-[#f3e7d9]">
       <Scene /> 
       <LandingPage />
       <Pg2 />

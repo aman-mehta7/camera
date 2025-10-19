@@ -109,18 +109,18 @@ const Scene = () => {
 
 
     <section
-      className=" lg:hidden block absolute h-[459dvh]  inset-0 lg:z-50 -z-20 "
+      className=" lg:hidden block absolute h-[459dvh]  inset-0 lg:z-50 -z-0 "
       style={{ background: "transparent" }}
     >
       <div
-        className="sticky top-0 -z-10 h-dvh w-full  "
+        className="sticky top-0  h-dvh w-full  "
         style={{
           pointerEvents: "none",
         }}
       >
 
         <Canvas shadows>
-          <color attach="background" args={["#f3e7d9"]} />
+          {/* <color attach="background" args={["#f3e7d9"]} /> */}
           <Suspense fallback={<Loader />}>
             <PerspectiveCamera makeDefault position={cameraPosition} fov={fov} />
 
