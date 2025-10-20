@@ -3,7 +3,7 @@ import img3 from "../assets/images/vintage.jpg";
 
 const LastPg = () => {
   return ( 
-    <section className="lg:flex items-center gap-10 lg:pr-30 lg:pl-50 md:pl-30 p-8  text-black lg:h-[90dvh]">
+    <section className="lg:flex items-center gap-10 lg:pr-30 lg:pl-50 md:pl-30 p-8  text-black lg:h-[90vh]">
       <img src={img3} alt="" className="object-cover lg:w-[45%] h-[50vh] rounded-md" />
       <div>
         <p className="lg:text-[1vw] text-[3vw] mb-3 lg:mt-0 mt-3">Playing with GSAP & 3js/R3F</p>

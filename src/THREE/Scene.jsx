@@ -67,11 +67,11 @@ const Scene = () => {
   return (
     <>
     <section
-      className=" lg:block hidden absolute lg:h-[459dvh]  inset-0 lg:z-50 -z-10 "
+      className=" lg:block hidden absolute lg:h-[275rem]  inset-0 lg:z-50 -z-10 "
       style={{ background: "transparent" }}
     >
       <div
-        className="sticky top-0 h-dvh w-full"
+        className="sticky top-0 h-screen w-full"
         style={{
           background: "transparent",
           // pointerEvents: "none",
@@ -109,11 +109,11 @@ const Scene = () => {
 
 
     <section
-      className=" lg:hidden block absolute h-[459dvh]  inset-0 lg:z-50 -z-0 "
+      className=" lg:hidden block absolute h-[268rem]  inset-0 lg:z-50 -z-0 "
       style={{ background: "transparent" }}
     >
       <div
-        className="sticky top-0  h-dvh w-full  "
+        className="sticky top-0  h-screen w-full  "
         style={{
           pointerEvents: "none",
         }}
