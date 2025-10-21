@@ -109,8 +109,8 @@ const Scene = () => {
 
 
     <section
-      className=" lg:hidden block absolute h-[268rem]  inset-0 lg:z-50 -z-0 "
-      style={{ background: "transparent" }}
+      className=" lg:hidden block fixed h-[260rem] z-0 "
+      // style={{ background: "transparent" }}
     >
       <div
         className="sticky top-0  h-screen w-full  "

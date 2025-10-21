@@ -11,7 +11,7 @@ const Pg2 = () => {
     );
   }, []);
   return (
-    <section className=" backdrop-blur-sm lg:backdrop-blur-none md:pl-30 p-8 lg:h-[70vh] w-full">
+    <section className=" md:pl-30 p-8 lg:h-[70vh] w-full">
       <div className="lg:flex justify-between lg:pr-20">
         <div className="bottom">
           <p className="pb-1 lg:ml-1.5 text-lg font-semibold">limited verson</p>

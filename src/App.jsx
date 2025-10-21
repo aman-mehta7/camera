@@ -32,11 +32,15 @@ const App = () => {
     <main className="bg-[#f3e7d9]">
       <Scene /> 
       <LandingPage />
+      <div className=' backdrop-blur-sm lg:backdrop-blur-none '>
       <Pg2 />
       <Pg3 />
+      </div>
       <Pg4 />
       <Pg5 />
+      <div className=' backdrop-blur-sm lg:backdrop-blur-none '>
       <LastPg />
+      </div>
     </main>
   )
 }

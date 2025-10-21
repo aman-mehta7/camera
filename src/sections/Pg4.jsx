@@ -5,7 +5,7 @@ import img3 from "../assets/images/vintage.jpg";
 
 const Pg4 = () => {
   return (
-    <section className='  flex  justify-between lg:h-screen md:px-30 px-10 py-32 mt-40 lg:mt-0' >
+    <section className='  flex  justify-between lg:h-screen md:px-30 px-10 py-32 mb-20 lg:mt-0' >
         <div className='relative flex flex-col justify-between '>
             <img src={img1} alt="" className='border-4 border-black w-[13vw]  object-contain ml-[10vw] -rotate-15 ' />
             <img src={img2} alt="" className=' absolute -bottom-30 z-60 border-4 border-black w-[13vw]  object-contain ml-[25vw] mt-[5vw] rotate-20 ' />

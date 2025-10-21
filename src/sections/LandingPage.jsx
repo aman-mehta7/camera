@@ -12,7 +12,7 @@ const LandingPage = () => {
   return (
     <section className="relative  h-[90dvh]">
       <Nav />
-      <div className=" maintext w-full pt-27  h-full  flex items-center justify-center lg:text-[7vw] lg:leading-[6vw] md:text-[10vw] md:leading-[9vw] text-[13vw] leading-[13vw]  font-semibold header-font text-center">
+      <div className=" maintext absolute -z-0 w-full pt-27  h-full  flex items-center justify-center lg:text-[7vw] lg:leading-[6vw] md:text-[10vw] md:leading-[9vw] text-[13vw] leading-[13vw]  font-semibold header-font text-center">
         UNTIMITED <br /> FILMI SCENES
       <img src={cam} alt=""  className=" img absolute w-24 object-cover -mt-65 lg:ml-180 ml-70  -rotate-12  opacity-70"/>
       </div>
