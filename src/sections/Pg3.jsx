@@ -3,7 +3,7 @@ import img3 from "../assets/images/vintage.jpg";
 
 const Pg3 = () => {
   return (
-    <section className=" md:pl-30 p-8 lg:h-fit w-full">
+    <section className=" md:pl-30 p-8  w-full">
       <div className=" flex items-center justify-between">
         <h1 className="text-[14vw] font-bold header-font text-wrap">
           RETROCROP

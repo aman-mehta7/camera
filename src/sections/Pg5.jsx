@@ -72,7 +72,7 @@ import React from "react";
 const Pg5 = () => {
   return (
     <section className=" hidden  relative bg-transparent h-screen w-full lg:flex items-center justify-center">
-      <div className=" relative lg:h-[80dvh] h-[50dvh]  lg:w-[35dvw] w-[70dvw] border-5 border-black rounded-2xl flex items-end justify-center lg:gap-20 gap-5 ml-5 p-10 lg:bg-gradient-to-tr from-[#390c83] to-[#c76c16]">
+      <div className=" relative lg:h-[80vh] h-[50vh]  lg:w-[35vw] w-[70vw] border-5 border-black rounded-2xl flex items-end justify-center lg:gap-20 gap-5 ml-5 p-10 lg:bg-gradient-to-tr from-[#390c83] to-[#c76c16]">
         <button className=" px-4 py-2  rounded-sm cursor-pointer font-bold bg-[brown] text-[white]">
           EXPLORE
         </button>

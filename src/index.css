@@ -6,7 +6,7 @@
 
 html,
 body {
-  width: 100dvw;
+  width: 100vw;
   overflow-x: hidden;
   /* background-color: #f3e7d9; */
   /* background-color: #00000000; */
@@ -17,8 +17,8 @@ body {
 
 
 canvas {
-  width: 100dvw;
-  height: 100dvh;
+  width: 100vw;
+  height: 100vh;
 }
 
 button,i,a{

@@ -10,7 +10,7 @@ const LandingPage = () => {
       // gsap.fromTo(".img", { y: -100 }, { y: 0, duration: 1 });
     }, []);
   return (
-    <section className="relative  h-[90dvh]">
+    <section className="relative  h-[90vh]">
       <Nav />
       <div className=" maintext absolute -z-0 w-full pt-27  h-full  flex items-center justify-center lg:text-[7vw] lg:leading-[6vw] md:text-[10vw] md:leading-[9vw] text-[13vw] leading-[13vw]  font-semibold header-font text-center">
         UNTIMITED <br /> FILMI SCENES
