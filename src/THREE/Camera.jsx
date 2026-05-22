@@ -117,7 +117,7 @@ export default function CameraModel() {
 
         // SCENE 3 -> SCENE 4
         .addLabel("scene3")
-        .to(group.current.rotation, { x:0.4, y: 0, duration: 0.1 }, "scene3")
+        .to(group.current.rotation, { x:0.4, y: 3, duration: 0.1 }, "scene3")
         .to(group.current.position, { y: 0, z: 0, duration: 0.1}, "scene3")
         .to(group.current.scale, { x: 1, y: 1, z: 1,  duration: 0.1 }, "scene3")
 
