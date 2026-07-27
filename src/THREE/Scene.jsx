@@ -2,6 +2,7 @@ import React, { Suspense, useEffect, useMemo, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { PerspectiveCamera, Html, useProgress } from "@react-three/drei";
 import ModelCamera from "./Camera";
+import MobileCameraModel from "./MobileCameraModel";
 
 const Scene = () => {
   // 🔹 Simple loading overlay
@@ -67,7 +68,7 @@ const Scene = () => {
   return (
     <>
     <section
-      className=" lg:block hidden absolute lg:h-[275rem]  inset-0 lg:z-50 -z-10 "
+      className=" md:block hidden absolute lg:h-[275rem]  inset-0 lg:z-50 -z-10 "
       style={{ background: "transparent" }}
     >
       <div
@@ -109,7 +110,7 @@ const Scene = () => {
 
 
     <section
-      className=" lg:hidden block fixed h-[260rem] z-0 "
+      className=" md:hidden block fixed h-[2rem] z-0 "
       // style={{ background: "transparent" }}
     >
       <div
@@ -133,7 +134,7 @@ const Scene = () => {
               rotation={[Math.PI / 2, Math.PI / 1.15, Math.PI / 2]}
               castShadow
             >
-              <ModelCamera />
+              <MobileCameraModel />
             </group>
 
             {/* Subtle shadow receiver plane */}

@@ -38,7 +38,7 @@ const App = () => {
       </div>
       <Pg4 />
       <Pg5 />
-      <div className=' backdrop-blur-sm lg:backdrop-blur-none '>
+      <div className=' backdrop-blur-none lg:backdrop-blur-none '>
       <LastPg />
       </div>
     </main>

@@ -2,9 +2,6 @@
 
 
 
-
-
-
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { gsap } from "gsap";
@@ -25,7 +22,7 @@ export default function CameraModel() {
           // markers: true,
           trigger: "body",
           start: "top top",
-          end: "center -10%",
+          end: "center -50%",
           scrub: true,
         },
       });

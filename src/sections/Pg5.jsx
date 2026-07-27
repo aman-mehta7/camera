@@ -15,9 +15,10 @@ const Pg5 = () => {
   }
 
   return (
-    <section className="h-screen w-full">
+    <>
+    <section className="h-screen hidden md:block w-full">
       <Canvas shadows>
-        <color attach="background" args={["#f3e7d9"]} />
+        {/* <color attach="background" args={["#f3e7d9"]} /> */}
 
         <Suspense fallback={<Loader />}>
           {/* Gentle lighting setup */}
@@ -61,6 +62,53 @@ const Pg5 = () => {
         </Suspense>
       </Canvas>
     </section>
+    <section className="h-screen block md:hidden w-full">
+      <Canvas shadows>
+        {/* <color attach="background" args={["#f3e7d9"]} /> */}
+
+        <Suspense fallback={<Loader />}>
+          {/* Gentle lighting setup */}
+          <ambientLight intensity={4} />
+          <directionalLight
+            position={[1, 1, 0]}
+            intensity={10}
+          />
+
+          {/* Your models */}
+          <group
+            position={[9, -9 , -3]}
+            rotation={[Math.PI / 10, Math.PI / 4, Math.PI / 4]}
+            scale={8}
+            castShadow
+            receiveShadow
+          >
+            <Cam1 />
+          </group>
+
+          <group
+            position={[2, 2, 0]}
+            rotation={[0, Math.PI / 15, Math.PI / 4]}
+            scale={0.013}
+            castShadow
+            receiveShadow
+          >
+            <Cam2 />
+          </group>
+
+          {/* Invisible “paper” with soft shadow catching */}
+          <mesh
+            rotation={[-Math.PI / 2, 0, 0]}
+            position={[0, -2, 0]}
+            receiveShadow
+          >
+            <planeGeometry args={[100, 100]} />
+            {/* Make the plane invisible but still catch shadows */}
+            <shadowMaterial transparent opacity={0.3} />
+          </mesh>
+        </Suspense>
+      </Canvas>
+    </section>
+    </>
   );
 };
 
