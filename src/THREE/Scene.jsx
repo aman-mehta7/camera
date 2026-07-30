@@ -68,7 +68,7 @@ const Scene = () => {
   return (
     <>
     <section
-      className=" md:block hidden absolute lg:h-[275rem]  inset-0 lg:z-50 -z-10 "
+      className=" md:block hidden absolute lg:h-[275rem] xl:h-[300rem]   inset-0 lg:z-50 -z-10 "
       style={{ background: "transparent" }}
     >
       <div
