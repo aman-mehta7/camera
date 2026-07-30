@@ -3,7 +3,7 @@
 import { useGLTF } from '@react-three/drei'
 
 export default function Cam1 (props) {
-  const { nodes, materials } = useGLTF( import.meta.env.BASE_URL + 'models/dae_-_bilora_bella_46_camera_-_game_ready_asset.glb')
+  const { nodes, materials } = useGLTF( import.meta.env.BASE_URL + 'models/cam2.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[0.424, 0.037, -1.923]} rotation={[-0.391, -0.313, -0.024]} scale={0.8}>
@@ -221,4 +221,4 @@ export default function Cam1 (props) {
   )
 }
 
-useGLTF.preload( import.meta.env.BASE_URL + 'models/dae_-_bilora_bella_46_camera_-_game_ready_asset.glb')
+useGLTF.preload( import.meta.env.BASE_URL + 'models/cam2.glb')

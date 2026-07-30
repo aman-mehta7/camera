@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function CameraModel() {
   const group = useRef();
   const { nodes, materials } = useGLTF(
-    import.meta.env.BASE_URL + "models/antique_movie_camera (1).glb"
+    import.meta.env.BASE_URL + "models/cam1.glb"
   );
 
     useGSAP(() => {
@@ -71,4 +71,4 @@ export default function CameraModel() {
   );
 }
 
-useGLTF.preload(import.meta.env.BASE_URL + "models/antique_movie_camera (1).glb");
+useGLTF.preload(import.meta.env.BASE_URL + "models/cam1.glb");
